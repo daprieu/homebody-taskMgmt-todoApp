@@ -13,19 +13,26 @@
   }
 }
 
-.App-header {
+.App-div {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.task {
+  background-color: #282c34;
+  color: white;
+  padding: 2em;
 }
 
 .App-link {
   color: #61dafb;
+}
+#task, #details, #category {
+  color:white;
 }
 
 @keyframes App-logo-spin {
